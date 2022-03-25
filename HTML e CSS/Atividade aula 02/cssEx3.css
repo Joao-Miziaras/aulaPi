@@ -1,9 +1,32 @@
+body{
+    background-color: #c1c2c4;
+}
 .branco{
-
+    background-color: #ffffff;
+    height: 500px;
+    width: 50vw;
+    border: black 10px dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .amarelo{
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
 
 }
 .laranjaEscuro{
-    
+    background-color: #e44106;
+    height: 100px;
+    width: 30%;
+
+}
+.verde{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
