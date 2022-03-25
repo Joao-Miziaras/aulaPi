@@ -1,0 +1,15 @@
+.divVermelha{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    margin-top: 100px;
+}
+.divPreta{
+    background-color: black;
+    height: 50vh;
+    width: 50%;
+    border: red 10px dashed;
+    margin-top: 100px;
+    margin-left: 100px;
+}

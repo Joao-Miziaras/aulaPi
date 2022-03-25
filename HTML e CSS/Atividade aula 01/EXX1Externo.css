@@ -1,0 +1,27 @@
+.primeiraDiv{
+    background-color: #FF7F00; 
+    height: 500px;
+    width: 500px;
+}
+.divDentroDaprimeira{
+    background-color:  #90ee90;
+    height: 250px; 
+    width: 250px;
+}
+.paragrafoDentroDasdivs{
+    color: white; 
+    background-color: red;
+    font-size: 25px; 
+    font-family: monospace; 
+    font-weight: bold;
+}
+.segundaDiv{
+    width: 50%; 
+    height: 50vh; 
+    background-color: rgb(94, 94, 252);
+}
+.dentroDasegundaDiv{
+    width: 75vw; 
+    height: 50%; 
+    background-color: rgb(255, 0, 0);
+}

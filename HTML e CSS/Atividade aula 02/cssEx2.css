@@ -1,0 +1,18 @@
+.lilas{
+    background-color: rgb(138, 43, 226);
+    height: 250px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+.divRosa{
+    background-color: #ff80ff;
+    height: max-content;
+    width: 250px;
+    border: red 20px dashed;
+}
+.verdeAgua{
+    background-color: rgb(86, 240, 219);
+    height: 88%;
+    width: 30%;
+}
