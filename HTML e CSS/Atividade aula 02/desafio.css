@@ -51,12 +51,29 @@
     width: 750px;
     height: 30px;
 }
+.varias{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: opx;
+}
 .vermelha{
     background-color: red;
-    width: 50%;
-
+    width: 42%;
+    height: 30px;
 }
 .piscina{
     background-color: cadetblue;
     width: 20%;
+    height: 30px;
+}
+.vclaro{
+    background-color: rgb(35, 255, 35);
+    width: 38%;
+    height: 100%;
+    
+}
+body{
+    margin: 0;
 }
