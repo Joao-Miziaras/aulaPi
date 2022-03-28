@@ -25,3 +25,38 @@
     font-weight: bold;
     
 }
+.azul{
+    margin-left: 200px;
+    background-color: blue;
+    width: 1000px;
+    height: 30px;
+    margin-top: 80px;
+}
+.roxaEscura{
+    background-color: purple;
+    margin: auto;
+    height: 30px;
+    width: 500px;
+}
+.verde{
+    background-color: green;
+    margin: auto;
+    width: 850px;
+    height: 30px;
+
+}
+.amarela{
+    background-color: yellow;
+    margin: auto;
+    width: 750px;
+    height: 30px;
+}
+.vermelha{
+    background-color: red;
+    width: 50%;
+
+}
+.piscina{
+    background-color: cadetblue;
+    width: 20%;
+}
