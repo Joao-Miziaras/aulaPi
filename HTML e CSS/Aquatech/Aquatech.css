@@ -9,7 +9,7 @@ body{
     border-bottom: 3px solid aqua;
 }
 .header ul .aqui{
-    font-weight: 800;
+    font-weight: 1000;
 }
 .header .container{
     justify-content: space-between;
@@ -33,6 +33,14 @@ body{
     padding: 0;
     align-items: center;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    font-weight: 1000;
+}
 /* Fim do cabeçalho
    Começo do banner*/
 
@@ -45,10 +53,13 @@ body{
 .banner .container p span{
     font-weight: 1000; 
 }
+.banner .container p{
+    width: 30%;
+}
 .banner .container {
     justify-content: center;
     font-size: 36px;
-    width: 10%;
+
 }
 /*fim do banner*/
 .social{
@@ -78,7 +89,42 @@ body{
     color: white;
     display: flex;
     font-size: 15px;
+    height: 60px;
 }
 .footer .container{
     justify-content:  center;
+}
+/*fim da footer*/
+/*Login*/
+.banner .container .card {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 17, 97);
+    align-items: center;
+    border-radius: 4%;
+}
+.card h1{
+    font-size: 30px;
+}
+.card h4{
+    font-size: 16px;
+}
+.card input{
+    border: rgb(255, 17, 97) solid 2px;
+    text-align: center;
+    height: 25px;
+}
+.card button{
+    border: 0;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7%;
+    color: white;
+    background-color: rgb(255, 17, 97);
+    font: 900 20px monospace;
+    cursor: pointer;
 }
