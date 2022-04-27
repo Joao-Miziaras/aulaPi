@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    border: 2px solid yellow;
+
+}
+.header{
+    border: 2px solid red;
+
+}
+.header .container {
+    justify-content: space-between;
+}
+.navbar{
+    border: 2px solid blue;
+}
+ul{
+    list-style: none;
+} 
+li{
+    display: inline;
+}
+/*Fim header*/
