@@ -17,16 +17,23 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.container .logo{
+.header .container a{
     width: 8%;
+    text-decoration: none;
+}
+.logo{
+    width: 100%;
 }
 .navbar{
     display: flex;
     justify-content: space-around;;
-    width: 50%;
 }
 .navbar ul li{
     padding: 20px;
+    color: white;
+}
+.navbar ul li:hover{
+    font-weight: bolder;
 }
 .navbar-logCad{
     width: 25%;
@@ -36,6 +43,7 @@ ul{
 } 
 li{
     display: inline;
+    font-size: 180%;
 }
 .loginBu{
     background-color: white;
@@ -155,6 +163,121 @@ li{
 .login{
     display: flex;
 }
-.cardinf{
-    border: 2px solid blue;
+.login .container{
+    justify-content: center;
 }
+.cardinf{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    border-radius: 4%;
+    height: 50%;
+    background-color: #c4ccd8;
+
+}
+.cardinf input{
+    text-align: center;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: aliceblue;
+}
+.entrarbu{
+    margin-top: 6%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 8px ;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.entrarbu:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+  }
+  h4{
+      font-size: 150%;
+  }
+  h3{
+      font-size: 160%;
+  }
+  h1{
+      font-size: 280%;
+  }
+  h6 a{
+      font-size: 130%;
+    margin-bottom: 10%;
+    color: #000000;
+  }
+  /*Fim login*/
+  /*Começo cadastro*/
+  .cadastro{
+    display: flex;
+}
+.cadastro .container{
+    justify-content: center;
+}
+.cardcad{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    border-radius: 4%;
+    height: 50%;
+    background-color: #c4ccd8;
+
+}
+.cardcad input{
+    text-align: center;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: aliceblue;
+}
+.entrarbu{
+    margin-top: 6%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 8px ;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-bottom: 3%;
+}
+.entrarbu:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+  }
+  .footercad{
+    margin-top: 5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: #f8f9fa;
+    color: #b2b5ba;
+    justify-content: space-around;
+  }
