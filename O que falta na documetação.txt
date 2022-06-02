@@ -1,0 +1,26 @@
+O que falta:
+1.Curso CCO
+2.Visão do projeto
+2.Apresentação do grupo
+4.Contexto
+5.Definição da equipe do projeto
+6.Processo e ferramenta de gestão de projetos
+7.Diagrama de solução tecnica
+8.Prototipo porem fodase não existe
+9.Métricas
+10.Implantção do projeto(Manual de instalção)
+11.Fluxogramas e help desk
+12.Conclusão
+13.Resultados
+14.Aprendizado
+15.considerções finais e evolução de equipe
+
+-------------------------------------------------------------------------
+
+O que não tem no do brandão e tem na nossa doc(não sei se excluo)
+1.Premissa
+2.Restrição
+3.Equipe envolvida(Acredito que entre em item 4 da lista O que falta)
+4.Marcos no projeto
+5.Orçamento
+6.Sustentação
